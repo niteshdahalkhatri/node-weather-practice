@@ -26,6 +26,9 @@ hbs.registerPartials(partialsPath)
 //setup static directory to serve
 app.use(express.static(publicDirectoryPath));
 
+//port
+const port = process.env.PORT || 3000
+
 //index page
 app.get('', (req, res) => {
     res.render('index', {
@@ -116,6 +119,6 @@ app.get('*', (req, res) => {
 });
 
 
-app.listen(3000, () => {
-    console.log("Server started");
+app.listen(port, () => {
+    console.log("Server started at port " + port);
 })
