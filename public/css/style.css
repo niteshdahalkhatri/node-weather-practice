@@ -1,0 +1,108 @@
+body {
+    color: #333333;
+    font-family: fantasy;
+
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-content {
+    flex-grow: 1;
+}
+
+a {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+footer {
+    text-align: center;
+    color: black;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-top: 15px;
+
+    border-top: 2px solid goldenrod;
+
+}
+
+header h1 {
+    font-weight: 500;
+    color: orange;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    margin-left: 400px;
+}
+
+.links {
+    margin-left: 400px;
+}
+
+header a {
+    text-decoration: none;
+    color: olivedrab;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    margin-right: 3px;
+    margin-top: 5px;
+
+}
+
+header a:hover {
+    outline: 1px solid black;
+    outline-offset: 2px;
+    background-color: cadetblue;
+    color: red;
+
+}
+
+.main-content p.error {
+    text-align: center;
+    color: red;
+    margin-top: 10%;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+
+.main-content p {
+    margin-top: 30px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: gray;
+    margin-left: 400px;
+    margin-bottom: 40px;
+}
+
+
+.image {
+    width: 300px;
+    margin-left: 400px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+form {
+    margin-left: 400px;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 8px;
+}
+
+input:focus {
+    border: 1px solid orchid;
+}
+
+button {
+    cursor: pointer;
+    background-color: slategray;
+    color: maroon;
+    padding: 5px;
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
